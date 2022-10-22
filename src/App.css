@@ -1,0 +1,31 @@
+img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #31C6D4;
+  padding: 20px;
+  width: 500px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_list {
+  list-style: none;
+}
+
+.card_span {
+  color: #DFF6FF;
+}
